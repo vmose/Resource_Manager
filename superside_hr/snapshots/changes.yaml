@@ -1,0 +1,16 @@
+-- snapshots/staff_snapshot.sql
+{% snapshot staff_snapshot %}
+
+{{
+  config(
+    target_schema='snapshots',
+    target_database='glass-mantra-128509',
+    unique_key='email',
+    strategy='check',
+    check_cols=['role', 'manager', 'job_level']
+  )
+}}
+
+SELECT * FROM {{ ref('final_staff_model') }}
+
+{% endsnapshot %}
