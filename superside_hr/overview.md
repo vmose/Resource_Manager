@@ -3,6 +3,7 @@
 This project focuses on building a unified HR data model using [dbt](https://www.getdbt.com/) and [BigQuery](https://cloud.google.com/bigquery/docs/introduction). The goal is to integrate staff data from multiple sources into a single, consistent data model for Business Intelligence (BI) reporting on [Looker Studio](https://cloud.google.com/looker-studio).
 
 `Project Overview`
+
 Data Sources: Multiple HR datasets with different structures.
 
 Data Modeling: Data was staged, transformed, and unified to create a comprehensive and accurate final model. This was done using dbt (data build tool), with transformations designed for flexibility and scalability.
