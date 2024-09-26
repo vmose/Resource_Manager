@@ -1,0 +1,106 @@
+version: 2
+
+models:
+  - name: stg_staff_current
+    description: "Staging table for current staff data from HR system"
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - Name
+            - Email
+    columns:
+      - name: Name
+        description: "Staff member's name"
+        tests:
+          - not_null
+      - name: Email
+        description: "Staff member's email address"
+        tests:
+          - not_null
+          - unique
+      - name: Role
+        description: "Current role of the staff member"
+        tests:
+          - not_null
+      - name: job_level
+        description: "Current job level of the staff member"
+      - name: Manager
+        description: "Manager of the staff member"
+      - name: nationality
+        description: "Staff member's nationality"
+      - name: residence
+        description: "Staff member's residence"
+
+  - name: stg_staff_mobility
+    description: "Staging table for staff mobility and role changes"
+    columns:
+      - name: Name
+        description: "Staff member's name"
+        tests:
+          - not_null
+      - name: mobility_date
+        description: "Date of mobility (e.g., promotion or role change)"
+        tests:
+          - not_null
+      - name: previous_role
+        description: "Previous role before the mobility"
+      - name: previous_job_level
+        description: "Previous job level before the mobility"
+      - name: previous_manager
+        description: "Previous manager of the staff member"
+
+  - name: stg_db_staff
+    description: "Staging table for staff data from the internal application"
+    columns:
+      - name: staff_id
+        description: "Unique identifier for the staff member"
+        tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Staff member's name"
+      - name: email
+        description: "Staff member's email"
+        tests:
+          - not_null
+          - unique
+      - name: role
+        description: "Current role of the staff member as recorded in the application"
+      - name: job_level
+        description: "Current job level of the staff member"
+      - name: citizenship
+        description: "Staff member's nationality"
+      - name: residence
+        description: "Staff member's place of residence"
+
+  - name: final_staff_model
+    description: "Unified staff model combining data from HR and internal application systems"
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - name
+            - email
+    columns:
+      - name: name
+        description: "Staff member's name"
+        tests:
+          - not_null
+      - name: email
+        description: "Staff member's email address"
+        tests:
+          - not_null
+          - unique
+      - name: current_role
+        description: "Current role of the staff member"
+        tests:
+          - not_null
+      - name: current_job_level
+        description: "Current job level of the staff member"
+      - name: nationality
+        description: "Nationality of the staff member"
+      - name: residence
+        description: "Residence of the staff member"
+      - name: previous_role
+        description: "Previous role, if applicable"
+      - name: previous_manager
+        description: "Previous manager, if applicable"
