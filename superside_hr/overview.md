@@ -8,9 +8,11 @@ Data Modeling: Data was staged, transformed, and unified to create a comprehensi
 Key Outputs: The final staff model, which allows Superside's HR and BI teams to generate insights from consistent, cleaned, and well-structured data.^^^^
 
 ## Tools Used 
--***dbt***: For managing transformations and data modeling.
--***BigQuery***: As the data warehouse.
--***OAuth Authentication*** : For secure access to BigQuery.
+***dbt***: For managing transformations and data modeling.
+
+***BigQuery***: As the data warehouse.
+
+***OAuth Authentication*** : For secure access to BigQuery.
 
 The steps include:
 
