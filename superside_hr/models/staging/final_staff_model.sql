@@ -12,11 +12,17 @@ WITH staff_current AS (
         c.business_group
     FROM {{ ref('stg_staff_current') }} c
 ),
-
 db_staff AS (
     SELECT
         d.staff_id,
         d.name,
+        d.username,
+        d.styles,
+        d.industries, 
+        d.software, 
+        d.residence,
+        d.offboarded_at,
+        d.created_at,
         d.email,
         d.role AS db_role,
         d.job_level AS db_job_level,
@@ -24,18 +30,16 @@ db_staff AS (
         d.residence AS db_residence
     FROM {{ ref('stg_db_staff') }} d
 ),
-
 staff_mobility AS (
     SELECT
         m.Name,
-        m.mobility_date,
+        m.date_of_mobility,
         m.previous_role,
         m.previous_manager,
         m.previous_job_level,
         m.previous_functional_group
     FROM {{ ref('stg_staff_mobility') }} m
 )
-
 -- Unified staff model
 SELECT
     COALESCE(sc.Name, db.name) AS name,
