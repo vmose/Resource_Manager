@@ -21,8 +21,6 @@ db_staff AS (
         d.industries, 
         d.software, 
         d.residence,
-        d.offboarded_at,
-        d.created_at,
         d.email,
         d.role AS db_role,
         d.job_level AS db_job_level,
@@ -44,24 +42,34 @@ staff_mobility AS (
 SELECT
     COALESCE(sc.Name, db.name) AS name,
     COALESCE(sc.Email, db.email) AS email,
-    COALESCE(sc.Role, db.db_role) AS current_role,
-    COALESCE(sc.job_level, db.db_job_level) AS current_job_level,
+    COALESCE(sc.Role, db.db_role) AS role,
+    COALESCE(sc.job_level, db.db_job_level) AS job_level,
     sc.Manager,
     sc.Start_date,
     COALESCE(sc.nationality, db.citizenship) AS nationality,
     COALESCE(sc.residence, db.db_residence) AS residence,
     sc.Gender,
     sc.business_group,
+
+    -- Data from db.staff
+    db.staff_id,
+    db.username,
+    db.position,
+    db.position_level,
+    db.styles, 
+    db.industries, 
+    db.software, 
+    db.citizenship,
     
     -- Historical data from staff_mobility
+    sm.date_of_mobility,
     sm.previous_role,
     sm.previous_manager,
-    sm.mobility_date,
     sm.previous_job_level,
     sm.previous_functional_group
 
 FROM staff_current sc
 LEFT JOIN db_staff db
-    ON sc.Email = db.email
-LEFT JOIN staff_mobility sm
+    ON sc.Name = db.name
+JOIN staff_mobility sm
     ON sc.Name = sm.Name;

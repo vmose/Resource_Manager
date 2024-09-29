@@ -1,4 +1,4 @@
-with cleaned_staff_mobility as (
+with staff_mobility as (
     select 
         Name,
         date_of_mobility,
@@ -8,4 +8,4 @@ with cleaned_staff_mobility as (
         previous_functional_group
     from `glass-mantra-128509.superside_hr.staff_mobility`
 )
-select * from cleaned_staff_mobility;
+select * from staff_mobility;

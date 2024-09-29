@@ -1,4 +1,4 @@
-WITH cleaned_staff_current AS (
+WITH staff_current AS (
     SELECT 
         Name,
         Email,
@@ -12,4 +12,4 @@ WITH cleaned_staff_current AS (
         Business_Group AS business_group
     FROM `glass-mantra-128509.superside_hr.staff_current`
 )
-SELECT * FROM cleaned_staff_current;
+SELECT * FROM staff_current;

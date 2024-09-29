@@ -1,4 +1,4 @@
-WITH cleaned_db_staff AS (
+WITH db_staff AS (
     SELECT 
         staff_id,
         name,
@@ -12,10 +12,7 @@ WITH cleaned_db_staff AS (
         residence,
         offboarded_at,
         created_at
-        position_level AS job_level,
-        citizenship,
-        residence,
-        created_at
+        position_level AS job_level
     FROM `glass-mantra-128509.superside_hr.db_staff`
 )
-SELECT * FROM cleaned_db_staff;
+SELECT * FROM db_staff;
