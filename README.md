@@ -1,6 +1,6 @@
-# Superside HR Data Modeling Project
+# Human Resource Data Model
 
-This project focuses on building a unified HR data model using [dbt](https://www.getdbt.com/) and [BigQuery](https://cloud.google.com/bigquery/docs/introduction). The goal is to integrate staff data from multiple sources into a single, consistent data model for Business Intelligence (BI) reporting on [Looker Studio](https://cloud.google.com/looker-studio).
+This project focuses on building a unified HR data model using [dbt](https://www.getdbt.com/) and [BigQuery](https://cloud.google.com/bigquery/docs/introduction). The goal is to integrate staff data from multiple sources into a single, consistent data model for Business Intelligence (BI) reporting on [Looker Studio](https://lookerstudio.google.com/reporting/2d00cab0-0132-4381-a82e-a2aa47007105/page/p_h0jtzztild).
 
 `Project Overview`
 
