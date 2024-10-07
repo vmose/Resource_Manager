@@ -15,4 +15,4 @@ clean-targets:
 models:
   superside_hr:
     staging:
-      +materialized: view 
+      +materialized: view  
