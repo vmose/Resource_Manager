@@ -2,7 +2,7 @@
 
 This project focuses on building a unified HR data model using [dbt](https://www.getdbt.com/) and [BigQuery](https://cloud.google.com/bigquery/docs/introduction). The goal is to integrate staff data from multiple sources into a single, consistent data model for Business Intelligence (BI) reporting on [Looker Studio](https://lookerstudio.google.com/reporting/2d00cab0-0132-4381-a82e-a2aa47007105/page/p_h0jtzztild).
 
-`Project Overview`
+## Project Overview
 
 Data Sources: Multiple HR datasets with different structures.
 
@@ -10,14 +10,14 @@ Data Modeling: Data was staged, transformed, and unified to create a comprehensi
 
 Key Outputs: The final staff model, which allows Superside's HR and BI teams to generate insights from consistent, cleaned, and well-structured data.
 
-## Tools Used 
+ ### `Tools Used` 
 ***dbt***: For managing transformations and data modeling.
 
 ***BigQuery***: As the data warehouse.
 
 ***Looker Studio***: For visualization and BI Reporting
 
-The steps include:
+### `The steps include:`
 
 1. Data Ingestion: Consolidating staff-related data from various source systems into a centralized BigQuery dataset.
 2. Staging Layer: Creating a staging layer where raw data is transformed into standardized formats using dbt models. This ensures consistency and uniformity across data from different sources.
