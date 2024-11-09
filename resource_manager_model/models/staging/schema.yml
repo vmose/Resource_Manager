@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_staff_current
-    description: "Staging table for current staff data from HR system"
+    description: "Staging table for current staff data from the HR system"
     tests:
       - dbt_utils.unique_combination_of_columns:
           combination_of_columns:
