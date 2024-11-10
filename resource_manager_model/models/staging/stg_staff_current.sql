@@ -1,5 +1,5 @@
-WITH staff_current AS (
-    SELECT 
+with staff_current as (
+    select 
         Name,
         Email,
         Role,
@@ -10,6 +10,6 @@ WITH staff_current AS (
         TRIM(Residence) AS residence,
         Gender,
         Business_Group AS business_group
-    FROM `glass-mantra-128509.superside_hr.staff_current`
+    from  `glass-mantra-128509.superside_hr.staff_current`
 )
-SELECT * FROM staff_current;
+select * from staff_current;
