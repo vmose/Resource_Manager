@@ -4,7 +4,7 @@ with staff_current as (
         Email,
         Role,
         Job_Level AS job_level,
-        Manager,
+        Manager_Email AS Manager,
         Start_date,
         TRIM(Nationality) AS nationality,
         TRIM(Residence) AS residence,

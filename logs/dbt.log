@@ -1137,3 +1137,279 @@ There are 1 unused configuration paths:
 [0m17:24:49.159250 [debug] [MainThread]: Connection 'debug' was properly closed.
 [0m17:24:49.159250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015498291BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001549F829460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001549A75E970>]}
 [0m17:24:49.176072 [debug] [MainThread]: Flushing usage events
+[0m09:05:34.550233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EA36175C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EA336DE20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EA336E6C0>]}
+
+
+============================== 09:05:34.608021 | 416d8629-f743-424d-a86c-7ee838bc5f37 ==============================
+[0m09:05:34.608021 [info ] [MainThread]: Running with dbt=1.8.8
+[0m09:05:34.608928 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'c:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:05:34.618904 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'superside_hr'
+[0m09:05:34.621889 [debug] [MainThread]: Command `cli run` failed at 09:05:34.620892 after 0.75 seconds
+[0m09:05:34.621889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EA2EADCA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EA336FCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EA336D580>]}
+[0m09:05:34.622885 [debug] [MainThread]: Flushing usage events
+[0m09:40:41.798214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185BDB5D2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185BDB2B800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185BDC21D00>]}
+
+
+============================== 09:40:41.813430 | 9e284b85-499f-4eb4-85e6-1674ee3e0eec ==============================
+[0m09:40:41.813430 [info ] [MainThread]: Running with dbt=1.9.1
+[0m09:40:41.815349 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt deps', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:40:42.097118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9e284b85-499f-4eb4-85e6-1674ee3e0eec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185BDB8EE40>]}
+[0m09:40:42.436371 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:40:42.439360 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:40:42.441345 [debug] [MainThread]: Command `dbt deps` succeeded at 09:40:42.441345 after 1.07 seconds
+[0m09:40:42.441345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185BDA63680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185B9712AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185BDCEB6E0>]}
+[0m09:40:42.442333 [debug] [MainThread]: Flushing usage events
+[0m09:40:44.182679 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:44:48.902746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146BBF9AA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146BBF99F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146B9561F40>]}
+
+
+============================== 09:44:48.910812 | 835b2d75-cab6-4c17-a685-499c42cb1a15 ==============================
+[0m09:44:48.910812 [info ] [MainThread]: Running with dbt=1.9.1
+[0m09:44:48.911714 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:44:49.127542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '835b2d75-cab6-4c17-a685-499c42cb1a15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146BBCDF170>]}
+[0m09:44:49.152002 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:44:49.160590 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:44:49.165235 [debug] [MainThread]: Command `dbt deps` succeeded at 09:44:49.164238 after 0.62 seconds
+[0m09:44:49.165235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146BBCDF170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146BC487830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146BC487860>]}
+[0m09:44:49.166231 [debug] [MainThread]: Flushing usage events
+[0m09:44:50.134077 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:45:38.142165 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001595B993920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001595C25FB00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001595C25E750>]}
+
+
+============================== 09:45:38.150143 | 0eacfa24-bf35-4108-b157-ca57bb9ff4eb ==============================
+[0m09:45:38.150143 [info ] [MainThread]: Running with dbt=1.9.1
+[0m09:45:38.152137 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt build', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:45:38.155196 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'superside_hr'
+[0m09:45:38.158117 [debug] [MainThread]: Command `dbt build` failed at 09:45:38.158117 after 0.36 seconds
+[0m09:45:38.159114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001595C3BD6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001595C08A720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001595BB745C0>]}
+[0m09:45:38.160113 [debug] [MainThread]: Flushing usage events
+[0m09:45:39.263290 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:47:53.989723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002141C4CA0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002141B573DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002141C7109E0>]}
+
+
+============================== 12:47:54.058969 | b32832a8-a40f-43e7-bdb3-11840e675d61 ==============================
+[0m12:47:54.058969 [info ] [MainThread]: Running with dbt=1.9.1
+[0m12:47:54.061820 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m12:47:54.069805 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'superside_hr'
+[0m12:47:54.071790 [debug] [MainThread]: Command `dbt run` failed at 12:47:54.071790 after 0.69 seconds
+[0m12:47:54.072787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002141B573DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002141C144860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002141BE2F650>]}
+[0m12:47:54.072787 [debug] [MainThread]: Flushing usage events
+[0m12:47:55.669536 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:52:46.763536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251F8B69760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251F677F0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251F8B686B0>]}
+
+
+============================== 12:52:46.842294 | 0d981639-096e-439d-8203-0e84ec6ff1e8 ==============================
+[0m12:52:46.842294 [info ] [MainThread]: Running with dbt=1.9.1
+[0m12:52:46.846275 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:53:21.014294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0d981639-096e-439d-8203-0e84ec6ff1e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE402090>]}
+[0m12:53:21.178892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0d981639-096e-439d-8203-0e84ec6ff1e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE2D84D0>]}
+[0m12:53:21.181857 [info ] [MainThread]: Registered adapter: bigquery=1.9.0
+[0m12:53:22.620565 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m12:53:22.960555 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m12:53:22.963545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0d981639-096e-439d-8203-0e84ec6ff1e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE867290>]}
+[0m12:53:26.507923 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.resource_manager_model.staging
+[0m12:53:26.519881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0d981639-096e-439d-8203-0e84ec6ff1e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE532E10>]}
+[0m12:53:26.676245 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\manifest.json
+[0m12:53:26.713476 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\semantic_manifest.json
+[0m12:53:26.997510 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0d981639-096e-439d-8203-0e84ec6ff1e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE058380>]}
+[0m12:53:26.999503 [info ] [MainThread]: Found 489 macros
+[0m12:53:27.001494 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0d981639-096e-439d-8203-0e84ec6ff1e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE85A270>]}
+[0m12:53:27.009794 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m12:53:27.013956 [debug] [MainThread]: Command end result
+[0m12:53:27.095448 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\manifest.json
+[0m12:53:27.102541 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\semantic_manifest.json
+[0m12:53:27.125802 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\run_results.json
+[0m12:53:27.127793 [debug] [MainThread]: Command `dbt run` succeeded at 12:53:27.127793 after 41.33 seconds
+[0m12:53:27.128789 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251F612F140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251F8F238C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE37FC50>]}
+[0m12:53:27.129782 [debug] [MainThread]: Flushing usage events
+[0m12:53:28.744388 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:54:52.923467 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A1D24830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A183ABA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A1CCF200>]}
+
+
+============================== 12:54:52.951348 | 7112c4c0-61fb-4ee1-93e4-fa5234ae4c88 ==============================
+[0m12:54:52.951348 [info ] [MainThread]: Running with dbt=1.9.1
+[0m12:54:52.954337 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:55:00.264272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7112c4c0-61fb-4ee1-93e4-fa5234ae4c88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A1D24830>]}
+[0m12:55:00.364170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7112c4c0-61fb-4ee1-93e4-fa5234ae4c88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A1E29700>]}
+[0m12:55:00.365168 [info ] [MainThread]: Registered adapter: bigquery=1.9.0
+[0m12:55:01.139056 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m12:55:01.278973 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m12:55:01.279980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7112c4c0-61fb-4ee1-93e4-fa5234ae4c88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A19A69C0>]}
+[0m12:55:03.047891 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.resource_manager_model.staging
+[0m12:55:03.061846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7112c4c0-61fb-4ee1-93e4-fa5234ae4c88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A72566C0>]}
+[0m12:55:03.214874 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\manifest.json
+[0m12:55:03.251587 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\semantic_manifest.json
+[0m12:55:03.369041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7112c4c0-61fb-4ee1-93e4-fa5234ae4c88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A764F530>]}
+[0m12:55:03.371035 [info ] [MainThread]: Found 489 macros
+[0m12:55:03.372032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7112c4c0-61fb-4ee1-93e4-fa5234ae4c88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A7574DA0>]}
+[0m12:55:03.378018 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m12:55:03.381998 [debug] [MainThread]: Command end result
+[0m12:55:03.486981 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\manifest.json
+[0m12:55:03.497461 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\semantic_manifest.json
+[0m12:55:03.520487 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\run_results.json
+[0m12:55:03.528545 [debug] [MainThread]: Command `dbt run` succeeded at 12:55:03.526550 after 11.46 seconds
+[0m12:55:03.529540 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A159E0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A7645D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E79D512AE0>]}
+[0m12:55:03.531531 [debug] [MainThread]: Flushing usage events
+[0m12:55:04.843529 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:58:15.269415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E6E34F6B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E6E4660F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E6E668500>]}
+
+
+============================== 12:58:15.292338 | d03ca6e2-6b7c-4c60-aca9-8576291bc0a2 ==============================
+[0m12:58:15.292338 [info ] [MainThread]: Running with dbt=1.9.1
+[0m12:58:15.294329 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:58:19.716979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd03ca6e2-6b7c-4c60-aca9-8576291bc0a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E7417A090>]}
+[0m12:58:19.794489 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd03ca6e2-6b7c-4c60-aca9-8576291bc0a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E6EA21DF0>]}
+[0m12:58:19.795486 [info ] [MainThread]: Registered adapter: bigquery=1.9.0
+[0m12:58:20.266139 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m12:58:20.614450 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:58:20.614450 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:58:20.615447 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.resource_manager_model.staging
+[0m12:58:20.624021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd03ca6e2-6b7c-4c60-aca9-8576291bc0a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E73EEBA40>]}
+[0m12:58:20.698359 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\manifest.json
+[0m12:58:20.714306 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\semantic_manifest.json
+[0m12:58:20.757325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd03ca6e2-6b7c-4c60-aca9-8576291bc0a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E747C88C0>]}
+[0m12:58:20.757325 [info ] [MainThread]: Found 489 macros
+[0m12:58:20.758321 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd03ca6e2-6b7c-4c60-aca9-8576291bc0a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E7460E0C0>]}
+[0m12:58:20.760314 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m12:58:20.763312 [debug] [MainThread]: Command end result
+[0m12:58:20.811954 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\manifest.json
+[0m12:58:20.824904 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\semantic_manifest.json
+[0m12:58:20.846830 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\run_results.json
+[0m12:58:20.850827 [debug] [MainThread]: Command `dbt run` succeeded at 12:58:20.850827 after 6.34 seconds
+[0m12:58:20.851823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E6EE7E060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E73CF5040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E6EE5E4B0>]}
+[0m12:58:20.852820 [debug] [MainThread]: Flushing usage events
+[0m12:58:22.435857 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:15:09.947384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFB8007110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFBA3943E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFBA396390>]}
+
+
+============================== 13:15:09.971145 | 4a899d82-1c20-4181-95fd-8a91f68bf797 ==============================
+[0m13:15:09.971145 [info ] [MainThread]: Running with dbt=1.9.1
+[0m13:15:09.972138 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:15:10.091824 [info ] [MainThread]: dbt version: 1.9.1
+[0m13:15:10.093813 [info ] [MainThread]: python version: 3.12.8
+[0m13:15:10.096398 [info ] [MainThread]: python path: C:\Users\Mosev\AppData\Local\anaconda3\python.exe
+[0m13:15:10.098403 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m13:15:18.236825 [info ] [MainThread]: Using profiles dir at C:\Users\Mosev\.dbt
+[0m13:15:18.237829 [info ] [MainThread]: Using profiles.yml file at C:\Users\Mosev\.dbt\profiles.yml
+[0m13:15:18.240869 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Mosev\Documents\GitHub\Resource_Manager\dbt_project.yml
+[0m13:15:18.240869 [info ] [MainThread]: adapter type: bigquery
+[0m13:15:18.241839 [info ] [MainThread]: adapter version: 1.9.0
+[0m13:15:18.433919 [info ] [MainThread]: Configuration:
+[0m13:15:18.435872 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:15:18.435872 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m13:15:18.436837 [info ] [MainThread]: Required dependencies:
+[0m13:15:18.437926 [debug] [MainThread]: Executing "git --help"
+[0m13:15:18.624007 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:15:18.624999 [debug] [MainThread]: STDERR: "b''"
+[0m13:15:18.627063 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:15:18.628989 [info ] [MainThread]: Connection:
+[0m13:15:18.630016 [info ] [MainThread]:   method: service-account
+[0m13:15:18.632059 [info ] [MainThread]:   database: glass-mantra-128509
+[0m13:15:18.633973 [info ] [MainThread]:   execution_project: glass-mantra-128509
+[0m13:15:18.635963 [info ] [MainThread]:   schema: superside_hr
+[0m13:15:18.636957 [info ] [MainThread]:   location: europe-west2
+[0m13:15:18.639022 [info ] [MainThread]:   priority: None
+[0m13:15:18.642679 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m13:15:18.643427 [info ] [MainThread]:   impersonate_service_account: None
+[0m13:15:18.644435 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m13:15:18.646428 [info ] [MainThread]:   job_retries: 1
+[0m13:15:18.647424 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m13:15:18.648421 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m13:15:18.650320 [info ] [MainThread]:   timeout_seconds: None
+[0m13:15:18.651330 [info ] [MainThread]:   client_id: None
+[0m13:15:18.653324 [info ] [MainThread]:   token_uri: None
+[0m13:15:18.655778 [info ] [MainThread]:   dataproc_region: None
+[0m13:15:18.659654 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m13:15:18.661649 [info ] [MainThread]:   gcs_bucket: None
+[0m13:15:18.663063 [info ] [MainThread]:   dataproc_batch: None
+[0m13:15:18.664571 [info ] [MainThread]: Registered adapter: bigquery=1.9.0
+[0m13:15:19.360526 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m13:15:19.361525 [debug] [MainThread]: On debug: select 1 as id
+[0m13:15:19.362519 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:15:24.776811 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=glass-mantra-128509&j=bq:europe-west2:5e65bd6c-e58c-464d-843d-9f36f7485ea0&page=queryresults
+[0m13:15:30.156291 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:15:30.158240 [info ] [MainThread]: [32mAll checks passed![0m
+[0m13:15:30.164226 [debug] [MainThread]: Command `dbt debug` succeeded at 13:15:30.163294 after 21.06 seconds
+[0m13:15:30.164226 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:15:30.165219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFBAAA3C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFC03FF380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFBA3BAC00>]}
+[0m13:15:30.166215 [debug] [MainThread]: Flushing usage events
+[0m13:15:31.891776 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:11:40.060809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C6A84830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C3DFB350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C6893530>]}
+
+
+============================== 16:11:40.142007 | fc46c01f-e47a-4abe-a34e-5343fcef2777 ==============================
+[0m16:11:40.142007 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:11:40.143991 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt compile', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:12:17.347342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fc46c01f-e47a-4abe-a34e-5343fcef2777', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CC0FCB00>]}
+[0m16:12:17.414012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fc46c01f-e47a-4abe-a34e-5343fcef2777', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C3FAC500>]}
+[0m16:12:17.415002 [info ] [MainThread]: Registered adapter: bigquery=1.9.0
+[0m16:12:18.318494 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:12:23.249673 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:12:23.249673 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:12:23.250670 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.resource_manager_model.models.staging
+[0m16:12:23.261707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fc46c01f-e47a-4abe-a34e-5343fcef2777', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CC261790>]}
+[0m16:12:23.370778 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\manifest.json
+[0m16:12:23.437403 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\semantic_manifest.json
+[0m16:12:24.277597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fc46c01f-e47a-4abe-a34e-5343fcef2777', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CC5ED7C0>]}
+[0m16:12:24.278597 [info ] [MainThread]: Found 489 macros
+[0m16:12:24.279593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fc46c01f-e47a-4abe-a34e-5343fcef2777', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CC2630E0>]}
+[0m16:12:24.281589 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:12:24.283922 [debug] [MainThread]: Command end result
+[0m16:12:24.317611 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\manifest.json
+[0m16:12:24.324319 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\semantic_manifest.json
+[0m16:12:24.340072 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Mosev\Documents\GitHub\Resource_Manager\target\run_results.json
+[0m16:12:24.342064 [debug] [MainThread]: Command `dbt compile` succeeded at 16:12:24.342064 after 45.03 seconds
+[0m16:12:24.342064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CBDCBC20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CC200F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C6A31D60>]}
+[0m16:12:24.343060 [debug] [MainThread]: Flushing usage events
+[0m16:12:25.666069 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:26:02.811648 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199D4C75340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199D2AA9B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199D6EF40B0>]}
+
+
+============================== 16:26:02.911501 | 07647cc6-e6a8-4b7a-9649-21cade50085a ==============================
+[0m16:26:02.911501 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:26:02.913501 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt clean', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:26:03.419752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '07647cc6-e6a8-4b7a-9649-21cade50085a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199D731B650>]}
+[0m16:26:04.531218 [debug] [MainThread]: Command `dbt clean` succeeded at 16:26:04.530220 after 2.77 seconds
+[0m16:26:04.533212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199D4C75340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199D725F920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199D6C060F0>]}
+[0m16:26:04.536202 [debug] [MainThread]: Flushing usage events
+[0m16:26:06.021458 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:26:39.875399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023621A47110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236241CCE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236241CFE30>]}
+
+
+============================== 16:26:39.896473 | bb5be862-d27c-4d4b-a9f6-bd520c4c5f40 ==============================
+[0m16:26:39.896473 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:26:39.898467 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:26:40.206253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bb5be862-d27c-4d4b-a9f6-bd520c4c5f40', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002362440FAA0>]}
+[0m16:26:40.708005 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:26:40.716760 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:26:40.723298 [debug] [MainThread]: Command `dbt deps` succeeded at 16:26:40.722148 after 1.45 seconds
+[0m16:26:40.725290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236244D1640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002362440FAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236244E97F0>]}
+[0m16:26:40.727283 [debug] [MainThread]: Flushing usage events
+[0m16:26:42.052030 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:29:21.303660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7E1A9400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7E1AA1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7B76F350>]}
+
+
+============================== 16:29:21.322279 | 4655e90b-dc18-4ab4-9e18-2a4079f252e9 ==============================
+[0m16:29:21.322279 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:29:21.323405 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mosev\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Mosev\\Documents\\GitHub\\Resource_Manager\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt clean', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:29:21.580141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4655e90b-dc18-4ab4-9e18-2a4079f252e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7E560830>]}
+[0m16:29:21.619643 [debug] [MainThread]: Command `dbt clean` succeeded at 16:29:21.619643 after 0.96 seconds
+[0m16:29:21.620642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7DB7BA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7E70BF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7E1AA1B0>]}
+[0m16:29:21.620642 [debug] [MainThread]: Flushing usage events
+[0m16:29:23.128573 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,6 +1,6 @@
 name: resource_manager_model
 version: '1.0.0'
-profile: superside_hr
+profile: resource_manager
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
@@ -14,5 +14,6 @@ clean-targets:
 
 models:
   resource_manager_model:
-    staging:
-      +materialized: view  
+    models:
+      staging:
+        +materialized: view  
